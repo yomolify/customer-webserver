@@ -10,6 +10,7 @@ import SimpleMapPage from '../../components/Map/SimpleMapPage'
 export default class Home extends Component {
   render() {
     const styles = require('./Home.scss');
+    console.log('styles', styles);
     // require the logo image both from client and server
     const logoImage = require('../../../static/cclogo_big.png');
     return (
