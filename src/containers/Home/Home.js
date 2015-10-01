@@ -6,11 +6,11 @@ import PractitionerAvatar from '../../components/AppointmentViewer/PractitionerC
 import SearchBar from '../../components/SearchBar/SearchBar';
 import Sticky from "react-sticky";
 import SimpleMapPage from '../../components/Map/SimpleMapPage'
-
+const styles = require('./Home.scss');
+    console.log('styles', styles);
 export default class Home extends Component {
   render() {
-    const styles = require('./Home.scss');
-    console.log('styles', styles);
+    
     // require the logo image both from client and server
     const logoImage = require('../../../static/cclogo_big.png');
     return (
