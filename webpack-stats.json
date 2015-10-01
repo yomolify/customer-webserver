@@ -1,6 +1,6 @@
 {
   "javascript": {
-    "main": "http://localhost:3001/dist/main-e7dac7649240052b773d.js"
+    "main": "http://localhost:3001/dist/main-b4b01bbeb14192cde625.js"
   },
   "styles": {},
   "images": {
@@ -8,7 +8,6 @@
     "./static/cclogo_big.png": "http://localhost:3001/dist/547632a70477d23c2adf993a591a76e0.png"
   },
   "style_modules": {
-    ".s": {},
     "./src/components/SurveyForm/SurveyForm.scss": {
       "inputGroup": "inputGroup___2TvEi",
       "flags": "flags___C-VuX",
@@ -38,6 +37,7 @@
       "logo": "logo___2M5M4",
       "humility": "humility___Tra-R",
       "github": "github___1UyUK"
-    }
+    },
+    ".s": {}
   }
 }
